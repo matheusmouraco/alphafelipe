@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
@@ -18,10 +19,11 @@ const content = {
   ctaButtonText: "Solicitar Orçamento Gratuito",
   ctaButtonLink: "https://wa.me/5511939358960",
   backgroundImages: [
-    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/61eeb066d_1000_F_232916161_qRqRC6ZgNUmwdHUhwIBVTiOFc2drCqxt.jpg",
-    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/e98802482_construcao-de-galpao-0.jpg",
-    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/cded7443d_construcao-galpao-industrial-precos.jpg",
-    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/c7da76e68_Galpao-Industrial-de-Carira-esta-80-reformado-1024x576.jpeg"
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/add39f8f2_WhatsAppImage2025-07-24at114853PM.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/795521a89_WhatsAppImage2025-07-24at115054PM.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/bddb8acb3_WhatsAppImage2025-07-25at122350AM.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/0fb3b3e3d_WhatsAppImage2025-07-25at124053PM.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/d95836e3e_WhatsAppImage2025-07-25at124526PM.jpg"
   ],
   overlayColor: "rgba(0, 0, 0, 0.6)",
 };
