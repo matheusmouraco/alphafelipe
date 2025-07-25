@@ -7,12 +7,10 @@ import GallerySection from '../components/home/GallerySection';
 import ClientsSection from '../components/home/ClientsSection';
 import FAQSection from '../components/home/FAQSection';
 import ContactSection from '../components/home/ContactSection';
-import TimeBasedMessage from '../components/home/TimeBasedMessage';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      <TimeBasedMessage />
       <HeroSection />
       <AboutSection />
       <ServicesSection />
