@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const content = {
@@ -5,15 +6,15 @@ const content = {
   title: "Trabalhamos com as melhores marcas do mercado",
   description: "Parcerias de sucesso que impulsionam o crescimento mútuo.",
   logos: [
-    { url: "https://i.imgur.com/VIH1C5L.png", alt: "Logo Cliente 1" },
-    { url: "https://i.imgur.com/YCIp2aG.png", alt: "Logo Cliente 2" },
-    { url: "https://i.imgur.com/G5Ogs06.png", alt: "Logo Cliente 3" },
-    { url: "https://i.imgur.com/sCNei0A.png", alt: "Logo Cliente 4" },
-    { url: "https://i.imgur.com/dAmC4rS.png", alt: "Logo Cliente 5" },
-    { url: "https://i.imgur.com/Yvj9x5N.png", alt: "Logo Cliente 6" },
-    { url: "https://i.imgur.com/oNmTCIJ.png", alt: "Logo Cliente 7" },
-    { url: "https://i.imgur.com/lO2pDQi.png", alt: "Logo Cliente 8" },
-    { url: "https://i.imgur.com/Qh0iGfG.png", alt: "Logo Cliente 9" },
+    { url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/0ed979877_ibratintintasetexturaemcarapicuiba.png", alt: "Logo Ibratin" },
+    { url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/040e3a83a_sherwinwilliamsemcotia.png", alt: "Logo Sherwin Williams" },
+    { url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/f88645cf5_sikaemsbc.png", alt: "Logo Sika" },
+    { url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/2e91c1030_tintacoralemjandira.png", alt: "Logo Coral" },
+    { url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/7d274d432_tintassuvinilemsaopaulo.png", alt: "Logo Suvinil" },
+    { url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/f70023895_tintastigreembarueri.png", alt: "Logo Tigre" },
+    { url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/1b7f3c692_vedacitemosasco.png", alt: "Logo Vedacit" },
+    { url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/9578d6c7a_weberemsp.png", alt: "Logo Weber Quartzolit" },
+    { url: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/d86fab0a3_Group13.png", alt: "Logo Inovapoxi" },
   ],
   backgroundColor: "#ffffff",
   textColor: "#111827"
