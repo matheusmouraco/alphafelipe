@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Award, Shield } from 'lucide-react';
 
@@ -7,7 +8,7 @@ const content = {
   title2: "30 anos com qualidade",
   titleHighlightColor: "#3b82f6",
   description: "Na AlphaIndústrias nos empenhamos em atender todas as necessidades dos nossos clientes, desde proporcionar o melhor atendimento a materiais e certificações necessárias.",
-  imageUrl: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/7b0bad489_silhuetas-local-de-construcao.jpg",
+  imageUrl: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/01e6e85b2_WhatsAppImage2025-07-24at114741PM2.jpg",
   achievements: [
     { text: "Mais de 250 projetos entregues", icon: Award },
     { text: "Especialidade em galpões", icon: Shield }
