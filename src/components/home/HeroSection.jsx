@@ -14,7 +14,6 @@ const content = {
     "Pintura de Estruturas Metálicas",
     "Pintura e Lavagem de Tanques e Caixas d'água"
   ],
-  subtitle: "Alpha Indústrias",
   description: "Equipe especializada e capacitada para atender as necessidades da sua empresa. Usamos materiais de mais alta qualidade do mercado com garantia e segurança.",
   ctaButtonText: "Solicitar Orçamento Gratuito",
   ctaButtonLink: "https://wa.me/5511939358960",
@@ -23,7 +22,18 @@ const content = {
     "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/795521a89_WhatsAppImage2025-07-24at115054PM.jpg",
     "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/bddb8acb3_WhatsAppImage2025-07-25at122350AM.jpg",
     "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/0fb3b3e3d_WhatsAppImage2025-07-25at124053PM.jpg",
-    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/d95836e3e_WhatsAppImage2025-07-25at124526PM.jpg"
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/d95836e3e_WhatsAppImage2025-07-25at124526PM.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/f30f5ee6c_WhatsAppImage2025-07-29at11526PM1.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/f13abceaf_WhatsAppImage2025-07-29at11526PM.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/b0cb39515_WhatsAppImage2025-07-29at11527PM1.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/c66cd6ead_WhatsAppImage2025-07-29at11527PM2.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/d47bbc23c_WhatsAppImage2025-07-29at11527PM.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/246e55d97_WhatsAppImage2025-07-29at11528PM1.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/824d66b4a_WhatsAppImage2025-07-29at11528PM.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/fd8f5fae0_WhatsAppImage2025-07-29at11536PM1.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/0dd4f25a6_WhatsAppImage2025-07-29at11536PM2.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/bec2f42ea_WhatsAppImage2025-07-29at11536PM.jpg",
+    "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/c5561d4ac_WhatsAppImage2025-07-29at11537PM.jpg"
   ],
   overlayColor: "rgba(0, 0, 0, 0.6)",
 };
@@ -73,11 +83,11 @@ export default function HeroSection() {
       
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-        <div className="mb-8">
+        <div className="mb-12">
           <img 
             src={content.logoUrl}
             alt="Alpha Indústrias"
-            className="h-20 mx-auto mb-8"
+            className="h-28 mx-auto mb-10"
           />
         </div>
         
@@ -87,10 +97,6 @@ export default function HeroSection() {
             {content.animatedServices[currentServiceIndex]}
           </span>
         </h1>
-        
-        <p className="text-2xl md:text-3xl mb-8 max-w-4xl mx-auto font-light tracking-wide">
-          {content.subtitle}
-        </p>
         
         <p className="text-lg mb-12 max-w-2xl mx-auto">
           {content.description}
