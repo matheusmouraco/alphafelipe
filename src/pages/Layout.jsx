@@ -73,10 +73,7 @@ export default function Layout({ children }) {
                 <Phone className="h-5 w-5 text-blue-400" />
                 <span>{footer.phone}</span>
               </a>
-              <a href={`mailto:${footer.email}`} className="flex items-center gap-3 text-sm hover:text-white transition-colors">
-                <Mail className="h-5 w-5 text-blue-400" />
-                <span>{footer.email}</span>
-              </a>
+          
               {footer.address && (
                  <div className="flex items-center gap-3 text-sm">
                     <MapPin className="h-5 w-5 text-blue-400" />
