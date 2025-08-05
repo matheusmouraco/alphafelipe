@@ -43,12 +43,7 @@ export default function ContactSection() {
                         <div className="text-gray-600">Atendimento via WhatsApp</div>
                       </div>
                     </div>
-                    <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-2xl">
-                      <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-                        <Mail className="h-6 w-6 text-green-600" />
-                      </div>
-                    
-                    </div>
+        
                   </div>
                   <a href={content.contactInfo.whatsappLink} target="_blank" rel="noopener noreferrer">
                     <Button 
