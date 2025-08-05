@@ -9,7 +9,6 @@ const content = {
     description: "Fale com nossa equipe e receba uma proposta personalizada. Orçamentos rápidos e sem compromisso.",
     contactInfo: {
       phone: "(11) 94295-9999",
-      email: "contato@alphacolorspinturas.com.br",
       whatsappLink: "https://wa.me/5511942959999?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento"
     },
     backgroundColor: "#f3f4f6",
