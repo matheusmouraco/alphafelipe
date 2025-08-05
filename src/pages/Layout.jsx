@@ -10,7 +10,7 @@ const defaultContent = {
       email: "contato@alphacolorspinturas.com.br",
       address: "Atendimento em todo o território nacional",
       whatsappLink: "https://wa.me/5511942959999?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento",
-      developedBy: { text: "Desenvolvido por", name: "MatiStudio", link: "#" },
+      developedBy: { text: "Desenvolvido por", name: "MatiStudio", link: "https://matistudio.com.br/" },
       copyright: "© 2025 Alpha Indústrias. Todos os direitos reservados.",
       backgroundColor: "#111827",
       textColor: "#ffffff"
