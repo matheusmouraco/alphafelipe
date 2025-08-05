@@ -47,10 +47,7 @@ export default function ContactSection() {
                       <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
                         <Mail className="h-6 w-6 text-green-600" />
                       </div>
-                      <div>
-                        <div className="font-semibold text-gray-900">{content.contactInfo.email}</div>
-                        <div className="text-gray-600">Envie seu projeto ou planta para análise</div>
-                      </div>
+                    
                     </div>
                   </div>
                   <a href={content.contactInfo.whatsappLink} target="_blank" rel="noopener noreferrer">
