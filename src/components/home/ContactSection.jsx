@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Phone, Mail } from 'lucide-react';
@@ -7,9 +8,9 @@ const content = {
     title: "Está buscando qualidade e confiança?",
     description: "Fale com nossa equipe e receba uma proposta personalizada. Orçamentos rápidos e sem compromisso.",
     contactInfo: {
-      phone: "(11) 93935 8960",
+      phone: "(11) 94295-9999",
       email: "contato@alphacolorspinturas.com.br",
-      whatsappLink: "https://wa.me/5511939358960"
+      whatsappLink: "https://wa.me/5511942959999?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento"
     },
     backgroundColor: "#f3f4f6",
     textColor: "#111827"
