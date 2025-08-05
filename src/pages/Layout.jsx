@@ -7,7 +7,6 @@ const defaultContent = {
   footer: {
       logoUrl: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/7d1febdb9_alphaindustria-Prancheta-1.png",
       phone: "11 94295-9999",
-      email: "contato@alphacolorspinturas.com.br",
       address: "Atendimento em todo o território nacional",
       whatsappLink: "https://wa.me/5511942959999?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento",
       developedBy: { text: "Desenvolvido por", name: "MatiStudio", link: "https://matistudio.com.br/" },
