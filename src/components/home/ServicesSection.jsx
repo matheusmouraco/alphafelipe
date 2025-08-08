@@ -15,7 +15,7 @@ const content = {
       description: "Proteção, durabilidade e alto desempenho para sua estrutura metálica. A Alpha Indústrias é especialista em pintura industrial com tratamento anticorrosivo, garantindo resistência mecânica, proteção contra agentes químicos e durabilidade superior. Nossa equipe executa serviços com rigor técnico, desde a preparação da superfície (jateamento, hidrojateamento, lixamento industrial) até a aplicação de tintas industriais de alta performance, conforme as normas técnicas exigidas.",
       color: "#f97316", 
       buttonText: "Quero este serviço", 
-      buttonLink: "https://wa.me/5511942959999?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento%20para%20pintura%20industrial"
+      buttonLink: "https://wa.me/5511939358960?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento%20para%20pintura%20industrial"
     },
     { 
       icon: Brush, 
@@ -23,7 +23,7 @@ const content = {
       description: "Sua empresa com aparência renovada e proteção de longa duração. Na Alpha Indústrias, executamos pintura e restauração interna e externa de fachadas, muros e áreas comuns, com acabamento de alto padrão e materiais industriais resistentes ao tempo e à exposição intensa.",
       color: "#06b6d4", 
       buttonText: "Quero este serviço", 
-      buttonLink: "https://wa.me/5511942959999?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento%20para%20pintura%20e%20restauração"
+      buttonLink: "https://wa.me/5511939358960?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento%20para%20pintura%20e%20restauração"
     }
   ],
   backgroundColor: "#f9fafb",

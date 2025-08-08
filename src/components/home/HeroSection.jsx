@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
@@ -15,7 +16,7 @@ const content = {
   ],
   description: "Equipe especializada e capacitada para atender as necessidades da sua empresa. Usamos materiais de mais alta qualidade do mercado com garantia e segurança.",
   ctaButtonText: "Solicitar Orçamento Gratuito",
-  ctaButtonLink: "https://wa.me/5511942959999?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento",
+  ctaButtonLink: "https://wa.me/5511939358960?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento",
   backgroundImages: [
     "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/add39f8f2_WhatsAppImage2025-07-24at114853PM.jpg",
     "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/795521a89_WhatsAppImage2025-07-24at115054PM.jpg",

@@ -8,8 +8,9 @@ const content = {
     title: "Está buscando qualidade e confiança?",
     description: "Fale com nossa equipe e receba uma proposta personalizada. Orçamentos rápidos e sem compromisso.",
     contactInfo: {
-      phone: "(11) 94295-9999",
-      whatsappLink: "https://wa.me/5511942959999?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento"
+      phone: "(11) 93935-8960",
+      email: "contato@alphacolorspinturas.com.br",
+      whatsappLink: "https://wa.me/5511939358960?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento"
     },
     backgroundColor: "#f3f4f6",
     textColor: "#111827"
@@ -43,7 +44,15 @@ export default function ContactSection() {
                         <div className="text-gray-600">Atendimento via WhatsApp</div>
                       </div>
                     </div>
-        
+                    <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-2xl">
+                      <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                        <Mail className="h-6 w-6 text-green-600" />
+                      </div>
+                      <div>
+                        <div className="font-semibold text-gray-900">{content.contactInfo.email}</div>
+                        <div className="text-gray-600">Envie seu projeto ou planta para análise</div>
+                      </div>
+                    </div>
                   </div>
                   <a href={content.contactInfo.whatsappLink} target="_blank" rel="noopener noreferrer">
                     <Button 

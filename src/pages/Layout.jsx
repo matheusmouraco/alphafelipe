@@ -6,10 +6,11 @@ import { Phone, Mail, MapPin } from 'lucide-react';
 const defaultContent = {
   footer: {
       logoUrl: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/7d1febdb9_alphaindustria-Prancheta-1.png",
-      phone: "11 94295-9999",
+      phone: "11 93935-8960",
+      email: "contato@alphacolorspinturas.com.br",
       address: "Atendimento em todo o território nacional",
-      whatsappLink: "https://wa.me/5511942959999?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento",
-      developedBy: { text: "Desenvolvido por", name: "MatiStudio", link: "https://matistudio.com.br/" },
+      whatsappLink: "https://wa.me/5511939358960?text=Oi,%20vim%20do%20seu%20site%20Alpha%20Indústrias%20e%20gostaria%20de%20um%20orçamento",
+      developedBy: { text: "Desenvolvido por", name: "MatiStudio", link: "#" },
       copyright: "© 2025 Alpha Indústrias. Todos os direitos reservados.",
       backgroundColor: "#111827",
       textColor: "#ffffff"
@@ -73,7 +74,10 @@ export default function Layout({ children }) {
                 <Phone className="h-5 w-5 text-blue-400" />
                 <span>{footer.phone}</span>
               </a>
-          
+              <a href={`mailto:${footer.email}`} className="flex items-center gap-3 text-sm hover:text-white transition-colors">
+                <Mail className="h-5 w-5 text-blue-400" />
+                <span>{footer.email}</span>
+              </a>
               {footer.address && (
                  <div className="flex items-center gap-3 text-sm">
                     <MapPin className="h-5 w-5 text-blue-400" />
